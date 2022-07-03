@@ -1,0 +1,563 @@
+<!--         Music Player Home Screen         -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome cdn  -->
+
+    <link rel="stylesheet" href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- css file  -->
+
+    <link rel="stylesheet" href="css/homepage.css">
+</head>
+<body>
+    <!--            navigation bar         -->
+    <div class="header">
+        <div class="navbar">
+            <div class="left-navbar ">
+                <img class="logo" src="image/ninja1.png" alt="no image">
+                <div class="logo-text">
+                    <span>Ninja</span>
+                    <span>Studio</span>
+                </div>
+            </div>
+            <div class="center-navbar">
+                <a href="#">Favourites</a>
+            </div>
+            <div class="toggle-bar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="right-navbar">
+                <i class="search-icon fa fa-search" aria-hidden="true"></i>
+                <input class="search" type="search" placeholder="search">
+                <i class="microphone-icon fa fa-microphone" aria-hidden="true"></i>
+                <!-- <i class="fa-solid fa fa-magnifying-glass"></i> -->
+                <i class="bell fa fa-bell" aria-hidden="true"></i>
+                <img class="profile" src="image/love.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="music" style="position:absolute;top:0;z-index:10;">
+            <audio src="mirage.mp3" type="audio/mpeg" autoplay>
+                
+            </audio>
+        </div>
+        <!-- left part of main  -->
+        <div class="left-container"> 
+            <div class="left-heading">
+                <div class="box"><a href="singleplaylistscreen.html"><img src="image/release2.jpg" alt=""></a></div>
+                <div class="box"><a href="singleplaylistscreen.html"><img src="image/release1.jpg" alt=""></a></div>
+
+                <div class="box"><a href="singleplaylistscreen.html"><img src="image/release3.jpg" alt=""></a></div>
+            </div>
+            <h3 class="banner">Latest Release</h3>
+            <div class="latest-release">
+                
+                <div class="release" id="release1">
+                    <div class="song-image">
+                        <img src="image/onism.jpg" alt="">
+                    </div>
+                    <div class="song-details">
+                        <h4>onism</h4>
+                        <p>August 11,2017</p>
+                    </div>
+                   
+                    <div class="more-details">
+                        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        <div class="more-details-navbar">
+                            <p><i class="fa fa-play" aria-hidden="true"></i>play now</p>
+                            <p><i class="fa fa-plus" aria-hidden="true"></i> Add to Queue</p>
+                            <p><i class="fa fa-list" aria-hidden="true"></i>Add to Favourite</p>
+                            <p><i class="fa fa-info-circle" aria-hidden="true"></i>Get Info</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="release" id="release2">
+                    <div class="song-image">
+                        <img src="image/onism.jpg" alt="">
+                    </div>
+                    <div class="song-details">
+                        <h4>onism</h4>
+                        <p>August 11,2017</p>
+                    </div>
+                    <div class="more-details">
+                        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        <div class="more-details-navbar">
+                            <p><i class="fa fa-play" aria-hidden="true"></i>play now</p>
+                            <p><i class="fa fa-plus" aria-hidden="true"></i> Add to Queue</p>
+                            <p><i class="fa fa-list" aria-hidden="true"></i>Add to Favourite</p>
+                            <p><i class="fa fa-info-circle" aria-hidden="true"></i>Get Info</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="release" id="release3">
+                    <div class="song-image">
+                        <img src="image/onism.jpg" alt="">
+                    </div>
+                    <div class="song-details">
+                        <h4>onism</h4>
+                        <p>August 11,2017</p>
+                    </div>
+                    <div class="more-details">
+                        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        <div class="more-details-navbar">
+                            <p><i class="fa fa-play" aria-hidden="true"></i>play now</p>
+                            <p><i class="fa fa-plus" aria-hidden="true"></i> Add to Queue</p>
+                            <p><i class="fa fa-list" aria-hidden="true"></i>Add to Favourite</p>
+                            <p><i class="fa fa-info-circle" aria-hidden="true"></i>Get Info</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="release" id="release4">
+                    <div class="song-image">
+                        <img src="image/onism.jpg" alt="">
+                    </div>
+                    <div class="song-details">
+                        <h4>onism</h4>
+                        <p>August 11,2017</p>
+                    </div>
+                    <div class="more-details">
+                        <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        <div class="more-details-navbar">
+                            <p><i class="fa fa-play" aria-hidden="true"></i>play now</p>
+                            <p><i class="fa fa-plus" aria-hidden="true"></i> Add to Queue</p>
+                            <p><i class="fa fa-list" aria-hidden="true"></i>Add to Favourite</p>
+                            <p><i class="fa fa-info-circle" aria-hidden="true"></i>Get Info</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-artist">
+                <div class="artist" id="artist1">
+                    <figure>
+                        <img src="image/edsheeran.jpg" alt="Trulli">
+                        <figcaption>Ed sherrram</figcaption>
+                    </figure>
+                </div>
+                <div class="artist" id="artist2"><figure>
+                    <img src="image/coldplay.jpg" alt="Trulli" >
+                    <figcaption>ColdPlay</figcaption>
+                    </figure></div>
+                                    <div class="artist" id="artist3"><figure>
+                    <img src="image/zayn.jpg" alt="Trulli" >
+                    <figcaption>Zyan</figcaption>
+                    </figure></div>
+                                    <div class="artist" id="artist4"><figure>
+                    <img src="image/charlieputh.jpg" alt="Trulli" >
+                    <figcaption>Charlie Puth</figcaption>
+                    </figure></div>
+                                    <div class="artist" id="artist5"><figure>
+                    <img src="image/imaginedragon.jpg" alt="Trulli">
+                    <figcaption>Imagine Dragon</figcaption>
+                    </figure></div>
+                                    <div class="artist" id="artist6"><figure>
+                    <img src="image/brunomars.jpg" alt="Trulli" >
+                    <figcaption>Bruno Mars</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="type-of-songs">
+                <div class="drawing">
+                    <div class="drawing-box" id="drawing-box1"> 1 </div>
+                    <div class="drawing-box" id="drawing-box2"> 2</div>
+                    <div class="drawing-box" id="drawing-box3"> 3</div>
+                    <div class="drawing-box" id="drawing-box4">4 </div>
+                </div>
+                <div class="drawing-type">
+                <div class="type" style="background-image:url('image/love.jpg');"><h4>love</h4></div>
+                <div class="type" style="background-image:url('image/retro.jpg')"><h4>Retro</h4></div>
+                <div class="type" style="background-image:url('image/chill.jpg')"><h4>Chill</h4></div>
+                <div class="type" style="background-image:url('image/workout.jpg')"><h4>Workout</h4></div>
+                <div class="type" style="background-image:url('image/rock.jpg')"><h4>Rock</h4></div>
+                <div class="type" style="background-image:url('image/pop.jpg')"><h4>pop</h4></div>
+            </div>
+
+             </div>
+             <!-- type of party mode  -->
+             <div class="mode">
+                 <div class="mode-type" id="mode1"><h4>Party</h4> </div>
+                 <div class="mode-type" id="mode2"> <h4>electronic</h4></div>
+                 <div class="mode-type" id="mode3"><h4>Road Trip </h4></div>
+             </div>
+            <!-- latest english song  -->
+             <div class="latest-english">
+                <h4 class="latest-heading">Latest English</h4>
+                <div class="latest-english-songs">
+                    <figure>
+                        <img src="image/song1.jpg" alt="">
+                        <figcaption>
+                            <h3>onism</h3>
+                            <p>AUG 11,2017</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/song2.jpg" alt="">
+                        <figcaption>
+                            <h3>onism</h3>
+                            <p>AUG 11,2017</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/song3.jpg" alt="">
+                        <figcaption>
+                            <h3>onism</h3>
+                            <p>AUG 11,2017</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/song4.jpg" alt="">
+                        <figcaption>
+                            <h3>onism</h3>
+                            <p>AUG 11,2017</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/song5.jpg" alt="">
+                        <figcaption>
+                            <h3>onism</h3>
+                            <p>AUG 11,2017</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/song6.jpg" alt="">
+                        <figcaption>
+                            <h3>onism</h3>
+                            <p>AUG 11,2017</p>
+                        </figcaption>
+                    </figure>
+                    
+                   
+                </div>
+             </div>
+             <!-- latest hindi song  -->
+             <div class="latest-hindi">
+                <h4 class="latest-heading">Latest Hindi</h4>
+                <div class="latest-hindi-songs">
+                    <figure>
+                        <img src="image/song1.jpg" alt="">
+                        <figcaption>
+                            <h3>onism</h3>
+                            <p>AUG 11,2017</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/song2.jpg" alt="">
+                        <figcaption>
+                            <h3>onism</h3>
+                            <p>AUG 11,2017</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/song3.jpg" alt="">
+                        <figcaption>
+                            <h3>onism</h3>
+                            <p>AUG 11,2017</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/song4.jpg" alt="">
+                        <figcaption>
+                            <h3>onism</h3>
+                            <p>AUG 11,2017</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="image/song5.jpg" alt="">
+                        <figcaption>
+                            <h3>onism</h3>
+                            <p>AUG 11,2017</p>
+                        </fig
+                        
+                        caption>
+                    </figure>
+                    <figure>
+                        <img src="image/song6.jpg" alt="">
+                        <figcaption>
+                            <h3>onism</h3>
+                            <p>AUG 11,2017</p>
+                        </figcaption>
+                    </figure>
+                    
+                   
+                </div>
+             </div>
+        </div>
+        <div class="right-container"> 
+            <!-- Queue of Songs -->
+            <div class="playlist-heading">
+                <h1>Queue</h1>
+                <p >Queue <span><i class="fa fa-caret-down"></i></span>
+                       
+                </p>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="#">Playlist </a>
+                    <hr style="margin:0 auto;width:80%;">
+                    <a href="#">Favourite Song</a>    
+                </div> 
+            </div>
+
+            <div class="song-queue">
+                <div class="songs">
+                    <div class="part1">
+                        <p>01</p>
+                        <img src="image/mirage.jpg" alt="">
+                    </div>
+                    <div class="part2">
+                            <div class="author-song-and-name">
+                                <h5>Mirange</h5>
+                                <p>Else</p>
+                            </div>
+                            <div class="like">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </div>
+                            
+                    </div>
+                </div>
+                <div class="songs">
+                    <div class="part1">
+                        <p>02</p>
+                        <img src="image/worryboutus.jpg" alt="">
+                    </div>
+                    <div class="part2">
+                            <div class="author-song-and-name">
+                                <h5>Worry bout us</h5>
+                                <p>Rosie Lowe</p>
+                            </div>
+                            <div class="like">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            
+                    </div>
+                </div>
+                <div class="songs">
+                    <div class="part1">
+                        <p>03</p>
+                        <img src="image/newskin.jpg" alt="">
+                    </div>
+                    <div class="part2">
+                            <div class="author-song-and-name">
+                                <h5>New Skin</h5>
+                                <p>Flume</p>
+                            </div>
+                            <div class="like">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            
+                    </div>
+                </div>
+                <div class="songs">
+                    <div class="part1">
+                        <p>04</p>
+                        <img src="image/mirage.jpg" alt="">
+                    </div>
+                    <div class="part2">
+                            <div class="author-song-and-name">
+                                <h5>Mirange</h5>
+                                <p>Else</p>
+                            </div>
+                            <div class="like">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </div>
+                            
+                    </div>
+                </div>
+                <div class="songs">
+                    <div class="part1">
+                        <p>05</p>
+                        <img src="image/worryboutus.jpg" alt="">
+                    </div>
+                    <div class="part2">
+                            <div class="author-song-and-name">
+                                <h5>Worry bout us</h5>
+                                <p>Rosie Lowe</p>
+                            </div>
+                            <div class="like">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            
+                    </div>
+                </div>
+                <div class="songs">
+                    <div class="part1">
+                        <p>06</p>
+                        <img src="image/newskin.jpg" alt="">
+                    </div>
+                    <div class="part2">
+                            <div class="author-song-and-name">
+                                <h5>New Skin</h5>
+                                <p>Flume</p>
+                            </div>
+                            <div class="like">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            
+                    </div>
+                </div>
+                <div class="songs">
+                    <div class="part1">
+                        <p>07</p>
+                        <img src="image/mirage.jpg" alt="">
+                    </div>
+                    <div class="part2">
+                            <div class="author-song-and-name">
+                                <h5>Mirange</h5>
+                                <p>Else</p>
+                            </div>
+                            <div class="like">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            
+                    </div>
+                </div>
+                <div class="songs">
+                    <div class="part1">
+                        <p>08</p>
+                        <img src="image/worryboutus.jpg" alt="">
+                    </div>
+                    <div class="part2">
+                            <div class="author-song-and-name">
+                                <h5>Worry bout us</h5>
+                                <p>Rosie lawe</p>
+                            </div>
+                            <div class="like">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            
+                    </div>
+                </div>
+
+                <div class="songs">
+                    <div class="part1">
+                        <p>09</p>
+                        <img src="image/newskin.jpg" alt="">
+                    </div>
+                    <div class="part2">
+                            <div class="author-song-and-name">
+                                <h5>New Skin</h5>
+                                <p>Flume</p>
+                            </div>
+                            <div class="like">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            
+                    </div>
+                </div>
+                <div class="songs">
+                    <div class="part1">
+                        <p>10</p>
+                        <img src="image/mirage.jpg" alt="">
+                    </div>
+                    <div class="part2">
+                            <div class="author-song-and-name">
+                                <h5>Mirange</h5>
+                                <p>Else</p>
+                            </div>
+                            <div class="like">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            
+                    </div>
+                </div>
+                <div class="songs">
+                    <div class="part1">
+                        <p>11</p>
+                        <img src="image/worryboutus.jpg" alt="">
+                    </div>
+                    <div class="part2">
+                            <div class="author-song-and-name">
+                                <h6>Worry bout us</h6>
+                                <p>Rosie lawe</p>
+                            </div>
+                            <div class="like">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            
+                    </div>
+                </div>
+                <div class="songs">
+                    <div class="part1">
+                        <p>12</p>
+                        <img src="image/newskin.jpg" alt="">
+                    </div>
+                    <div class="part2">
+                            <div class="author-song-and-name">
+                                <h5>New Skin</h5>
+                                <p>Flume</p>
+                            </div>
+                            <div class="like">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            
+                    </div>
+                </div>
+                <div class="songs">
+                    <div class="part1">
+                        <p>13</p>
+                        <img src="image/mirage.jpg" alt="">
+                    </div>
+                    <div class="part2">
+                            <div class="author-song-and-name">
+                                <h5>Mirange</h5>
+                                <p>Else</p>
+                            </div>
+                            <div class="like">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- bottom part of music player  -->
+    <div class="bottom">
+        <div class="play-song mirage-song">
+             <div class="song-info">
+                 <img src="image/mirage.jpg" alt="">
+                 <div class="author-info">
+                    <h4>Imagin by john</h4>
+                    <p>John Lennon</p>
+                 </div>
+                 <div class="like-or-dislike">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-ban"></i>
+                 </div>
+             </div>   
+             
+            <div class="audio-track">
+                <div class="first-line-of-audio-track">
+                    <i class="fa fa-retweet" aria-hidden="true"></i>  
+                    <i class="fa fa-backward" aria-hidden="true"></i>   
+                    <i class="fa-regular fa-circle-pause"></i>
+                    <i class="fa fa-forward" aria-hidden="true"></i>
+                    <i class="fa fa-random" aria-hidden="true"></i>
+                </div>
+                <div class="second-line-of-audio-track">
+                    <input type="range" name="audio" id="audio" min="0.0" step="0.1" max="3.28">
+                </div>
+            </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+            
+             <div class="feature">
+                    <i class="fa-solid fa-list-ul"></i>
+                    <i class="fa-solid fa-computer-speaker"></i>
+                    <i class="fa-solid fa-volume-high"></i>
+                    <input type="range" name="" id="">
+                    <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+             </div>
+        </div>
+
+    </div>
+</body>
+</html>
